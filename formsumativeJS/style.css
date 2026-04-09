@@ -1,0 +1,35 @@
+
+body {
+    text-align: center;
+	font-family: calibri;
+	background-color:antiquewhite;
+}
+.result {
+    font-size:16px;
+}
+p{
+    font-size: 12px;
+    color: grey;
+}
+.main {
+    margin:auto;
+	display:inline-block;
+	width:100%;
+	max-width:500px;
+	background:white;
+	border-radius:12px;
+	padding:10px;
+    box-shadow: 0px 10px gray;
+}
+label {
+    text-align:left;
+    border: 2cm;
+    border-style: none;
+    border-radius: 8px;
+    background-color: aqua;
+}
+input {
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.form div {text-align: left;}

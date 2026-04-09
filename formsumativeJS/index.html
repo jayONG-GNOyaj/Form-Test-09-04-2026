@@ -1,0 +1,66 @@
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="fsative.js"></script>
+    <title>Form</title>
+</head>
+<body>
+<main class="main">
+    <section id="result"></section>
+    <h1>Registration Form</h1>
+    <p>Fill the form with care, all information filled will be used by administration</p>
+    <section id="reset"></section>
+    <form class="form">
+        <div>
+            <label>Full Name*</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="i.e Hubert Tjiawie">
+            <p>*In line with birth certificate</p>
+        </div>
+        <div>
+            <label>Class/ Grade*</label>
+            <br>
+            <input type="text" name="grade" id="grade" placeholder="i.e Sec-4 Nobel">
+            <p>*Current class or destined class</p>
+        </div>
+        <div>
+            <label>Gender*</label>
+            <br>
+            <section class="select">
+                <input type="radio" name="gender" id="g1">Male
+                <input type="radio" name="gender" id="g2">Female
+            </section>
+            <p>*Pick one</p>
+        </div>
+        <div>
+            <label>Extracurricular*</label>
+            <br>
+            <section class="select">
+                <input type="checkbox" name="extra" id="x1">Futsal
+                <input type="checkbox" name="extra" id="x2">Basketball
+                <input type="checkbox" name="extra" id="x3">Speech
+            </section>
+            <p>*Pick more than one(optional)</p>
+        </div>
+                <div>
+            <label>Pick Time(mandatory)*</label>
+            <br>
+            <section class="select">
+                <input type="radio" name="period" id="t1">07:00-12:00
+                <input type="radio" name="period" id="t2">12:30-17:00
+                <input type="radio" name="period" id="t3">17:30-20:30
+                <input type="radio" name="period" id="t4">Mixed(Flexible)
+            </section>
+            <p>*Pick one</p>
+        </div>
+        <div>
+            <button type="button" onclick="ffunction()" id="b1">Submit</button>
+            <button type="reset" id="b2">Reset</button>
+            
+        </div>
+    </form>
+</main>
+    
+</body>
+</html>
